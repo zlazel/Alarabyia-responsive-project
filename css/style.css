@@ -1,0 +1,150 @@
+*{
+    /* direction: rtl; */
+    /* box-sizing: border-box; */
+    font-family: 'DroidKufiRegular';
+    color: white;
+    font-size: 1em;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    color: #211e1e;
+}
+.container-fluid{
+    background-color: #f6f6f6;
+}
+.border{
+    /* border: 2px solid red; */
+}
+span{
+    font-size: 0.5rem;
+}
+img{
+    max-width: 100%;
+}
+.card-title{
+    background-color: rgba(32, 30, 30, 0.156);
+    color: #211e1e;
+    font-size: 1rem;
+}.bottom{
+    margin-top: 10rem;
+    color: #211e1e;
+    text-align: center;
+}
+.my-shadow{
+    box-shadow: 0 0.5rem 0.5rem rgba(20,20,20,0.4) !important;
+}
+.news .my-shadow {
+box-shadow: 0 1rem 1.5rem rgba(20,20,20,0.4) !important;
+}
+#newsBar{
+    background-color: #d4d4d4;
+}
+.card{
+
+}
+.card-body{
+    color: #211e1e;
+    font-size: 1.5rem;
+    background-color: #e3e3e3;
+    padding: .5rem;
+}
+.title-text{
+    color: #211e1e;
+    font-size: 1rem;
+}
+.row{
+    margin: 0;
+}
+.display-4{
+    border-right: 5px;
+    border-right-color: currentcolor;
+    border-right-style: none;
+border-right-color: #6e2968;
+border-right-style: solid;
+padding-right: 1rem;
+font-size: 1.5rem;
+font-weight: bold;
+}
+.news .card,.latest-news .card{
+    flex-direction: row;
+}
+.news p{
+    font-size: .75rem !important;
+    
+}
+.latest-news .card span{
+    font-size: .75rem !important;
+    line-height: 0.5;
+}
+time{
+    text-align: left;
+    color: white !important;
+}
+.card-img-overlay h6{
+    color:black;
+    font-size: 1rem;
+}
+footer{
+    background-color:  #6e2968;
+}
+ul{
+    list-style-type: none;
+}
+#navLogo
+{   
+
+    font-family: 'Reem Kufi', sans-serif;
+    width: 5em;
+}
+header .main-content{
+    background-color: #640162;
+}
+.logo{
+}
+.navLogo{
+    background-image: url('../images/logo2.png');
+}
+nav{
+    background-color: white;
+}
+
+.live {
+margin: 1em;    
+}
+.live p{
+    background-color: #3a0138 !important;
+    color: white !important;
+    padding: 1em;
+        padding-top: 1em;
+    font-size: 1rem;
+    padding-top: 2em;
+}
+a{
+    
+}
+.nav-link{
+    color: #640162;
+}
+@media only screen and (max-width: 600px) {
+    header{
+        display: none;
+    }
+  }
+
+  @media only screen and (min-width: 400px) {
+    body{
+          /* display: none; */
+    }
+  }
+  section{
+      background-color: #e3e3e3;
+  }
+
+.large{
+  margin-top: 20rem;
+}
+.large .card-title, .card-title{
+    color: white;
+    font-size: 1.3rem;
+}
